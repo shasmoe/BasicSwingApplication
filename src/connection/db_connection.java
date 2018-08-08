@@ -22,8 +22,8 @@ private db_connection() throws IOException, SQLException, PropertyVetoException 
             
             //local connection
             config.setJdbcUrl("jdbc:mysql://localhost/basic");
-            config.setUsername("root");
-            config.setPassword("Ent13r07*");
+            config.setUsername("roots");
+            config.setPassword("Basic@18");
             config.setMinConnectionsPerPartition(5);
             config.setMaxConnectionsPerPartition(300);
             config.setPartitionCount(2);
